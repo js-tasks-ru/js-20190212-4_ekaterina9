@@ -1,3 +1,4 @@
+'use strict'
 /**
  * Power
  * @param {number} m base
@@ -5,5 +6,6 @@
  * @returns {number}
  */
 function pow (m, n) {
-
+  let result =  m**n;
+  return result;
 }
